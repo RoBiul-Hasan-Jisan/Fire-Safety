@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body{height:100%;overflow:hidden}
+body{background:#02040a;color:#cfe3ff;font-family:ui-sans-serif,system-ui,"Segoe UI",sans-serif}
+.panel{background:linear-gradient(180deg,rgba(10,24,50,.8),rgba(4,12,28,.74));border:1px solid rgba(70,150,255,.38);box-shadow:inset 0 0 18px rgba(30,110,255,.14),0 6px 28px rgba(0,0,0,.45);backdrop-filter:blur(8px);border-radius:12px}
+.panel.danger{border-color:rgba(255,70,70,.7);animation:alarm 1s infinite}
+@keyframes alarm{50%{box-shadow:inset 0 0 30px rgba(255,40,40,.35),0 0 24px rgba(255,40,40,.35)}}
+.btn{padding:.45rem .8rem;border:1px solid rgba(90,170,255,.4);border-radius:8px;background:rgba(30,90,170,.28);font-size:12px;letter-spacing:.04em;color:#dcecff;transition:.15s}
+.btn:hover{background:rgba(60,140,235,.5);box-shadow:0 0 12px rgba(60,150,255,.5)}
+.btn.on{background:linear-gradient(180deg,#2b86f0,#1559c0);color:#fff;box-shadow:0 0 14px rgba(40,130,255,.6)}
+.btn:disabled{opacity:.4;pointer-events:none}
+.hd{font-size:12px;font-weight:700;letter-spacing:.16em;color:#eaf3ff;text-transform:uppercase}

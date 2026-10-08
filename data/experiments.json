@@ -1,0 +1,90 @@
+[
+  {
+    "id": "PH-001",
+    "title": "Placeholder: thin cotton, low flow",
+    "material": "cotton",
+    "o2": 21,
+    "pressure": 101,
+    "airflow": 0.2,
+    "g": 0,
+    "outcome": "slow",
+    "source": "placeholder-illustrative"
+  },
+  {
+    "id": "PH-002",
+    "title": "Placeholder: thin cotton, high O2",
+    "material": "cotton",
+    "o2": 30,
+    "pressure": 101,
+    "airflow": 0.3,
+    "g": 0,
+    "outcome": "rapid",
+    "source": "placeholder-illustrative"
+  },
+  {
+    "id": "PH-003",
+    "title": "Placeholder: paper, reduced O2",
+    "material": "paper",
+    "o2": 17,
+    "pressure": 70,
+    "airflow": 0.1,
+    "g": 0,
+    "outcome": "extinguishes",
+    "source": "placeholder-illustrative"
+  },
+  {
+    "id": "PH-004",
+    "title": "Placeholder: foam, ambient",
+    "material": "foam",
+    "o2": 21,
+    "pressure": 101,
+    "airflow": 0.5,
+    "g": 1,
+    "outcome": "persistent",
+    "source": "placeholder-illustrative"
+  },
+  {
+    "id": "PH-005",
+    "title": "Placeholder: acrylic, Moon-like g",
+    "material": "acrylic",
+    "o2": 24,
+    "pressure": 101,
+    "airflow": 0.4,
+    "g": 0.16,
+    "outcome": "persistent",
+    "source": "placeholder-illustrative"
+  },
+  {
+    "id": "PH-006",
+    "title": "Placeholder: paper, Mars-like g",
+    "material": "paper",
+    "o2": 23,
+    "pressure": 80,
+    "airflow": 0.3,
+    "g": 0.38,
+    "outcome": "slow",
+    "source": "placeholder-illustrative"
+  },
+  {
+    "id": "PH-007",
+    "title": "Placeholder: foam, high flow",
+    "material": "foam",
+    "o2": 28,
+    "pressure": 101,
+    "airflow": 0.9,
+    "g": 0.16,
+    "outcome": "rapid",
+    "source": "placeholder-illustrative"
+  },
+  {
+    "id": "PH-008",
+    "title": "Placeholder: acrylic, low O2",
+    "material": "acrylic",
+    "o2": 18,
+    "pressure": 101,
+    "airflow": 0.2,
+    "g": 0.38,
+    "outcome": "extinguishes",
+    "source": "placeholder-illustrative"
+  }
+]
